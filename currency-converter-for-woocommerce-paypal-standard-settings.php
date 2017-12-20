@@ -34,9 +34,9 @@ class WC_Settings_PayPal_Currency_Converter {
 
             'section_title' => array(
                 'title'     => __( 'PayPal Currency Converter', 'currency-converter-for-woocommerce-paypal-standard' ),
-                'type'     => 'title',
-                'desc'     => '',
-                'id'       => 'wc_settings_paypal_currency_converter_section_title'
+                'type'      => 'title',
+                'desc'      => '',
+                'id'        => 'wc_settings_paypal_currency_converter_section_title'
             ),
 
             'supported_currencies' => array(
@@ -163,7 +163,6 @@ class WC_Settings_PayPal_Currency_Converter {
      * Add this page to settings.
      *
      * @param array $pages
-     *
      * @return mixed
      */
     public function add_settings_page( $pages ) {
@@ -174,7 +173,6 @@ class WC_Settings_PayPal_Currency_Converter {
 
     /**
      * Get settings page ID.
-     * @since 3.0.0
      * @return string
      */
     public function get_id() {
@@ -183,7 +181,6 @@ class WC_Settings_PayPal_Currency_Converter {
 
     /**
      * Get settings page label.
-     * @since 3.0.0
      * @return string
      */
     public function get_label() {
