@@ -25,7 +25,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 
 
   
-	/**
+     /**
      * Show admin notice on plugin activation.
      *
      */
@@ -37,7 +37,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
     <?php
 	}
 
-	/**
+     /**
      * Add user defined currency Currency
      *
      * @param array $currencies
@@ -49,7 +49,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		return $currencies;
 	}
 
-	/**
+     /**
      * Add user defined currency symbol.
      *
      * @param string $currency_symbol
@@ -66,7 +66,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		return $currency_symbol;
 	}
 
-	/**
+     /**
      * Add currently active Woocommerce currency to PayPal supported currencies.
      *
      * @param array $currencies
@@ -77,7 +77,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		return $currencies;    
 	}
 
-	/**
+     /**
      * Set currency conversion rate.
      *
      * @return int
@@ -109,7 +109,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		return $exchange_rate;
 	}
 
-	/**
+     /**
      * Convert shop price to set PayPal currency
      *
      * @param array $paypal_args
