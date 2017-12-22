@@ -38,7 +38,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 	}
 
      /**
-     * Add user defined currency Currency
+     * Add user defined currency
      *
      * @param array $currencies
      * @return string
